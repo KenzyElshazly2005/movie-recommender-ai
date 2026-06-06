@@ -37,7 +37,7 @@ The project uses the **MovieLens dataset**, which includes:
 ### 🤖 Recommendation System
 - User-based similarity using **Cosine Similarity**
 - Movie-movie similarity matrix
-- Top 5 recommended movies based on input
+- Top 10 recommended movies based on input
 
 ### 💻 Interactive System
 - Search for a movie
@@ -58,7 +58,11 @@ The project uses the **MovieLens dataset**, which includes:
 pip install -r requirements.txt
 python project3_recommender.py
 
-📁 Project Structure
+---
+
+## 📁 Project Structure
+
+```text id="final_struct"
 movie-recommender-ai/
 │
 ├── project3_recommender.py
@@ -66,28 +70,37 @@ movie-recommender-ai/
 ├── movies.csv
 ├── ratings.csv
 └── README.md
+```
+
+---
 
 ## 🖼️ Results / Screenshots
 
 Below are sample outputs of the system:
 
-![Screenshot 1](1.png)  
-![Screenshot 2](2.png)  
-![Screenshot 3](3.png)  
-![Screenshot 4](4.png)  
-![Screenshot 5](5.png)  
-![Screenshot 6](6.png)  
+![Screenshot 1](1.png)
+![Screenshot 2](2.png)
+![Screenshot 3](3.png)
+![Screenshot 4](4.png)
+![Screenshot 5](5.png)
+![Screenshot 6](6.png)
 ![Screenshot 7](7.png)
-![Screenshot 8](8.png)  
-![Screenshot 9](9.png)  
+![Screenshot 8](8.png)
+![Screenshot 9](9.png)
 ![Screenshot 10](10.png)
 
+---
 
-📌 Notes
-Ensure all datasets are placed in the correct directory.
-Install all dependencies before running the project.
-The model works best with complete MovieLens dataset.
+## 📌 Notes
 
+* Ensure all datasets are placed in the correct directory
+* Install all dependencies before running the project
+* The model works best with complete MovieLens dataset
 
-👩‍💻 Author
+---
+
+## 👩‍💻 Author
+
 Kenzy Mohamed
+
+---
