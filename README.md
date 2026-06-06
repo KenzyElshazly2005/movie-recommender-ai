@@ -57,3 +57,37 @@ The project uses the **MovieLens dataset**, which includes:
 ```bash
 pip install -r requirements.txt
 python project3_recommender.py
+
+📁 Project Structure
+movie-recommender-ai/
+│
+├── project3_recommender.py
+├── requirements.txt
+├── movies.csv
+├── ratings.csv
+└── README.md
+
+## 🖼️ Results / Screenshots
+
+Below are sample outputs of the system:
+
+![Screenshot 1](1.png)  
+![Screenshot 2](2.png)  
+![Screenshot 3](3.png)  
+![Screenshot 4](4.png)  
+![Screenshot 5](5.png)  
+![Screenshot 6](6.png)  
+![Screenshot 7](7.png)
+![Screenshot 8](8.png)  
+![Screenshot 9](9.png)  
+![Screenshot 10](10.png)
+
+
+📌 Notes
+Ensure all datasets are placed in the correct directory.
+Install all dependencies before running the project.
+The model works best with complete MovieLens dataset.
+
+
+👩‍💻 Author
+Kenzy Mohamed
