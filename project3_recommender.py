@@ -10,8 +10,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 print("\n📦 Loading datasets...\n")
 
-movies = pd.read_csv(r"DataSET\movies.csv")
-ratings = pd.read_csv(r"DataSET\ratings.csv")
+movies = pd.read_csv(r"movies.csv")
+ratings = pd.read_csv(r"ratings.csv")
 
 print("✔ Data Loaded Successfully!")
 
